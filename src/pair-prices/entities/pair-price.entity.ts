@@ -1,4 +1,4 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 
 @Entity()
 export class PairPrice {
@@ -25,7 +25,7 @@ export class PairPrice {
     })
     createdAt: Date
 
-    @CreateDateColumn({ 
+    @UpdateDateColumn({ 
         name: 'updated_at',
         type: 'timestamptz',
         default: () => 'CURRENT_TIMESTAMP'
