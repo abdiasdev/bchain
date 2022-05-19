@@ -3,7 +3,7 @@ ___
  May 19, 2022
 <br>
 
-### **`Autor`**
+### **[`Autor`]( "https://www.instagram.com/abdias.vrech/" )**
 
      Abdías Natanael Vrech
      Tel. +34 681 93 54 92
@@ -45,7 +45,7 @@ $ npm run start:prod
 ```
 ___
 
-## What's in this
+## What's in this repo
 - `OOP` → Mapped Types with `TypeORM` and `DTO`s
 - `Docker` containerization
 - `Postgres` DB && `Migrations` using custom `scripts`
@@ -53,3 +53,4 @@ ___
 - `Axios` to perform HTTP Requests to get current price of keypair of assets
 - `Random assets` selected to get the info and store on `DB`s with `CRUD` functions
 - Model View Controller (`MVC`) design pattern
+- `Version Control` using `GIT`, creating && merging `branches`
