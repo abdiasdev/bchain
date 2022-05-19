@@ -1,3 +1,4 @@
+import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PairPrice } from './entities/pair-price.entity';
@@ -6,7 +7,8 @@ import { PairPrice } from './entities/pair-price.entity';
   imports: [
     TypeOrmModule.forFeature([
       PairPrice
-    ])
+    ]),
+    HttpModule
   ]
 })
 export class PairPricesModule {}
